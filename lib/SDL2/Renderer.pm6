@@ -4,7 +4,7 @@ use v6;
 unit class SDL2::Renderer;
 
 use NativeCall;
-use SDL2::Raw:ver(0.2);
+use SDL2::Raw:ver(0.3);
 use SDL2::Window;
   
 has SDL_Renderer $.renderer;
